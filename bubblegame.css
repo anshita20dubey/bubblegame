@@ -1,0 +1,98 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: gilroy;
+}
+
+html,body
+{
+ width: 100%;
+ height: 100%
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    background-image: url(https://images.unsplash.com/photo-1478088702756-f16754aaf0c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+   
+}
+#chotamain
+{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#nav
+{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#nav h1
+{
+    font-weight: 500;
+}
+.top
+{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+}
+#panel
+{
+    width: 100%;
+    height: calc(100% - 50px);
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1504864858360-14aa23e8d931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpZ2h0fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.bubble
+{
+    height: 60px;
+    flex-shrink: 0;
+    width: 60px;
+    border-radius: 50%;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.84);
+    color:  #f37e2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    transition: all ease 0.3s;
+}
+.bubble:hover
+{
+    cursor: pointer;
+    background-color: #000000c9;
+    color: white;
+    border: 1px solid #fff;
+}
